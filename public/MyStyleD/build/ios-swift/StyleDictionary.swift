@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sun, 07 Nov 2021 21:23:10 GMT
+// Generated on Sun, 07 Nov 2021 23:49:13 GMT
 
 
 import UIKit
@@ -23,10 +23,11 @@ public class StyleDictionary {
     public static let colorFontsPrimary = UIColor(red: 0.196, green: 0.196, blue: 0.208, alpha: 1)
     public static let colorFontsSecondary = UIColor(red: 0.369, green: 0.369, blue: 0.388, alpha: 1)
     public static let colorFontsTertiary = UIColor(red: 0.549, green: 0.549, blue: 0.549, alpha: 1)
-    public static let sizeFontBase = CGFloat(16.00) /* the base size of the font */
-    public static let sizeFontLarge = CGFloat(32.00) /* the large size of the font */
-    public static let sizeFontMedium = CGFloat(16.00) /* the medium size of the font */
-    public static let sizeFontSmall = CGFloat(12.00) /* the small size of the font */
+    public static let sizeFontBase = CGFloat(19.20) /* the base size of the font */
+    public static let sizeFontLarge = CGFloat(24.00) /* the large size of the font */
+    public static let sizeFontMedium = CGFloat(19.20) /* the medium size of the font */
+    public static let sizeFontSmall = CGFloat(16.00) /* the small size of the font */
+    public static let sizeFontXlarge = CGFloat(32.00) /* the large size of the font */
     public static let sizeIconBase = CGFloat(32.00)
     public static let sizeIconLarge = CGFloat(40.00)
     public static let sizeIconSmall = CGFloat(24.00)

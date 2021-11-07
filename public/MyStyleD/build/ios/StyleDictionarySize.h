@@ -3,7 +3,7 @@
 //
 
 // Do not edit directly
-// Generated on Sun, 07 Nov 2021 21:23:10 GMT
+// Generated on Sun, 07 Nov 2021 23:49:13 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -12,6 +12,7 @@
 extern float const SizeFontSmall;
 extern float const SizeFontMedium;
 extern float const SizeFontLarge;
+extern float const SizeFontXlarge;
 extern float const SizeFontBase;
 extern float const SizeIconSmall;
 extern float const SizeIconBase;

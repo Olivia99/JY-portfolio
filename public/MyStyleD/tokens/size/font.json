@@ -2,14 +2,18 @@
   "size": {
     "font": {
       "small" : {
-        "value": "0.75",
+        "value": "1",
         "comment": "the small size of the font"
       },
       "medium": {
-        "value": "1",
+        "value": "1.2",
         "comment": "the medium size of the font"
       },
       "large" : {
+        "value": "1.5",
+        "comment": "the large size of the font"
+      },
+      "xlarge" : {
         "value": "2",
         "comment": "the large size of the font"
       },

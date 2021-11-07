@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Sun, 07 Nov 2021 21:23:10 GMT
+// Generated on Sun, 07 Nov 2021 23:49:13 GMT
 
 
 
@@ -13,13 +13,15 @@ import androidx.compose.ui.unit.*
 
 object StyleDictionarySize {
   /** the base size of the font */
-  val sizeFontBase = 16.00.sp
+  val sizeFontBase = 19.20.sp
   /** the large size of the font */
-  val sizeFontLarge = 32.00.sp
+  val sizeFontLarge = 24.00.sp
   /** the medium size of the font */
-  val sizeFontMedium = 16.00.sp
+  val sizeFontMedium = 19.20.sp
   /** the small size of the font */
-  val sizeFontSmall = 12.00.sp
+  val sizeFontSmall = 16.00.sp
+  /** the large size of the font */
+  val sizeFontXlarge = 32.00.sp
   val sizeIconBase = 32.00.sp
   val sizeIconLarge = 40.00.sp
   val sizeIconSmall = 24.00.sp
