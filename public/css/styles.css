@@ -1,10 +1,11 @@
 
 @import "_variables.css";
+@import "_variablex.scss";
 
 /* Global Styles */
 
 body{
-  background-color: var(--color-bg-light);
+  background-color:var(--color-bg-light);
   color: var(--fc-p);
   font-family: var(--ff-ss);
 }
