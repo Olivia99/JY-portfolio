@@ -1,0 +1,15 @@
+:root {
+  --color-bg-light: #f6f6f6;
+  --color-bg-grey: #f1f1f1;
+  --color-bg-lightblue: #eceff1;
+  --color-textcolor-primary: #323235;
+  --color-textcolor-secondary: #5e5e63;
+  --ff-ss: 'Inter', sans-serif;
+  --fc-s: var(--color-textcolor-secondary);
+  --fc-p: var(--color-textcolor-primary);
+  --pd-xl: 120px;
+  --pd-l: 64px;
+  --pd-m: 32px;
+  --pd-s: 16px;
+  --pd-xs: 8px;
+}

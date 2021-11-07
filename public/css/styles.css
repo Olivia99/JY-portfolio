@@ -1,0 +1,46 @@
+
+@import "_variables.css";
+
+/* Global Styles */
+
+body{
+  background-color: var(--color-bg-light);
+  color: var(--fc-p);
+  font-family: var(--ff-ss);
+}
+
+h1{
+  font-size: 4.3em;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+
+/* Intro Section */
+
+.intro{
+margin:200px auto;
+align-content: center;
+width: 80%;
+}
+
+.intro p {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: var(--fc-s);
+  text-align: center;
+}
+.intro h1{
+  text-align: center;
+}
+
+
+/* Project Section */
+
+.project-card {
+  background-color: var(--color-bg-light);
+  box-shadow: var(--effect-shadow-onlightbg);
+}
