@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Sun, 07 Nov 2021 21:23:10 GMT
+-->
+<resources>
+  <color name="color_base_gray_light">#fff6f6f6</color>
+  <color name="color_base_gray_medium">#fff1f1f1</color>
+  <color name="color_base_gray_blue">#ffeceff1</color>
+  <color name="color_fonts_primary">#ff323235</color>
+  <color name="color_fonts_secondary">#ff5e5e63</color>
+  <color name="color_fonts_tertiary">#ff8c8c8c</color>
+  
+</resources>

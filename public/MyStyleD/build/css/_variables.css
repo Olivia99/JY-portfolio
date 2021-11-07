@@ -1,0 +1,36 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 07 Nov 2021 21:23:10 GMT
+ */
+
+:root {
+  --asset-font-icon-name: "MaterialIcons";
+  --asset-font-icon-ttf: "assets/fonts/MaterialIcons-Regular.ttf";
+  --asset-font-icon-eot: "assets/fonts/MaterialIcons-Regular.eot";
+  --asset-font-icon-woff: "assets/fonts/MaterialIcons-Regular.woff";
+  --asset-font-icon-woff2: "assets/fonts/MaterialIcons-Regular.woff2";
+  --asset-font-inter-name: "Inter";
+  --asset-font-inter-ttf: "assets/fonts/Inter-Regular.ttf";
+  --color-base-gray-light: #f6f6f6;
+  --color-base-gray-medium: #f1f1f1;
+  --color-base-gray-blue: #eceff1;
+  --color-fonts-primary: #323235;
+  --color-fonts-secondary: #5e5e63;
+  --color-fonts-tertiary: #8c8c8c;
+  --size-font-small: 0.75rem; /* the small size of the font */
+  --size-font-medium: 1rem; /* the medium size of the font */
+  --size-font-large: 2rem; /* the large size of the font */
+  --size-font-base: 1rem; /* the base size of the font */
+  --size-icon-small: 1.5rem;
+  --size-icon-base: 2rem;
+  --size-icon-large: 2.5rem;
+  --size-icon-xl: 3rem;
+  --size-icon-xxl: 5rem;
+  --size-padding-tiny: 0.25rem;
+  --size-padding-small: 0.5rem;
+  --size-padding-medium: 1rem;
+  --size-padding-large: 1.5rem;
+  --size-padding-xl: 2rem;
+  --size-padding-xxl: 3rem;
+  --size-padding-base: 1rem;
+}
