@@ -1,17 +1,28 @@
 
-@import "_variables.css";
+@import "MyStyleD/build/css/_variables.css";
 
 
 /* Global Styles */
 
 body{
-  background-color:var(--color-bg-light);
-  color: var(--fc-p);
-  font-family: var(--ff-ss);
+  background-color:var(--color-base-gray-light);
+  color: var(--color-fonts-primary);
+  font-family: 'Inter', sans-serif;
 }
 
 h1{
   font-size: 4.3em;
+}
+h3{
+  font-size: 3em;
+  line-height: normal;
+  margin: 0;
+}
+
+p{
+  font-size:var(--size-font-medium);
+  color: var(--color-fonts-secondary);
+  line-height: 32px;
 }
 
 .container{
@@ -19,19 +30,33 @@ h1{
   margin: auto;
 }
 
+button{
+  font-size: var(--size-font-large);
+  height: 90px;
+  border-radius: var(--size1-radius-medium);
+  background-color: var(--color-base-white);
+  border: none;
+
+}
+
+button img{
+  height: 40%;
+  margin-left: var(--size-padding-medium);
+}
 
 /* Intro Section */
 
 .intro{
 margin:200px auto;
 align-content: center;
-width: 80%;
+width: 85%;
 }
 
 .intro p {
-  font-size: 1.5em;
+  font-size: var(--size-font-xlarge);
+line-height: 3rem;
   font-weight: 400;
-  color: var(--fc-s);
+  color: var(--color-fonts-secondary);
   text-align: center;
 }
 .intro h1{
@@ -42,6 +67,27 @@ width: 80%;
 /* Project Section */
 
 .project-card {
-  background-color: var(--color-bg-light);
+
+  background-color: var(--color-base-gray-blue);
   box-shadow: var(--effect-shadow-onlightbg);
+  padding: var(--size-padding-xxl);
+  border-radius: var(--size1-radius-xl);
+}
+
+.card-content{
+  display: grid;
+  grid:auto;
+  grid-gap: 32px;
+  margin-top: var(--size-padding-medium);
+  margin-bottom: var(--size-padding-medium);
+}
+
+.card-image img{
+  width: 100%;
+  margin-top: 24px;
+}
+.info h5{
+  font-size: var( --size-font-large);
+  color: var(--color-fonts-secondary);
+  margin-top:var(--size-padding-medium);
 }

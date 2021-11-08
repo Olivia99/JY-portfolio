@@ -2,9 +2,10 @@
 
 <!--
   Do not edit directly
-  Generated on Sun, 07 Nov 2021 23:49:13 GMT
+  Generated on Mon, 08 Nov 2021 00:54:40 GMT
 -->
 <resources>
+  <color name="color_base_white">#ffffffff</color>
   <color name="color_base_gray_light">#fff6f6f6</color>
   <color name="color_base_gray_medium">#fff1f1f1</color>
   <color name="color_base_gray_blue">#ffeceff1</color>

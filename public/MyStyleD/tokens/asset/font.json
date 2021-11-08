@@ -9,7 +9,7 @@
         "woff2": { "value": "assets/fonts/MaterialIcons-Regular.woff2" }
       },
       "inter": {
-        "name" : { "value": "Inter" },
+        "name" : { "value": "Inter, sans-serif"},
         "ttf"  : { "value": "assets/fonts/Inter-Regular.ttf" }
       }
    }

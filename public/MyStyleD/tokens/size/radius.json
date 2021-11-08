@@ -1,0 +1,24 @@
+{
+  "size1": {
+    "radius": {
+      "tiny": {
+        "value": "8px"
+      },
+      "small": {
+        "value": "12px"
+      },
+      "medium": {
+        "value": "16px"
+      },
+      "large": {
+        "value": "20px"
+      },
+      "xl": {
+        "value": "24px"
+      },
+      "xxl": {
+        "value": "32px"
+      }
+    }
+  }
+}
