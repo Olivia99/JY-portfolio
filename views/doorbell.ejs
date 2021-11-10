@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nooie Doorbell</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="MyStyleD/build/css/_variables.css">
+
+  <link rel="fonts" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+</head>
+
+<body>
+  <%- include("header")%>
+
+  <section class="grid projects">
+    <%- include("placeholder")%>
+    <div class="grid__container">
+
+      <div class="sectionNum">
+
+        <p> <%- include("numSection",{sectionNumber: "01", sectionName: "Overview"}) %> </p>
+      </div>
+
+      <div class="sectionContent">
+        <p>first section</p>
+      </div>
+
+    </div>
+    <%- include("placeholder")%>
+    <div class="grid__container reverse">
+
+      <div class="sectionNum">
+        <p> <%- include("numSection",{sectionNumber: "02", sectionName: "Problem"}) %> </p>
+      </div>
+
+      <div class="sectionContent">
+        <p>second section</p>
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+
+</html>

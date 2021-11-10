@@ -16,10 +16,11 @@ app.use(express.static("public"));
 app.get("/", function(req, res){
 var p = "Redesigned UX Flow and Consumer Advocate method, which resulted in a 19% drop in returns.";
 
-  res.render("home", {projectTitle: "Nooie", projectType:"UX Design 2021", projectDesciption: p});
+  res.render("home");
 
+});
 
-
-//res.sendFile(__dirname + "/index.html");
+app.get("/doorbell", function(req,res){
+res.render("doorbell");
 
 });

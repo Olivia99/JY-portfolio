@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 09 Nov 2021 22:52:46 GMT
+// Generated on Wed, 10 Nov 2021 06:22:28 GMT
 
 
 import UIKit
@@ -12,7 +12,7 @@ import UIKit
 public enum StyleDictionaryColor {
     public static let baseGrayBlue = UIColor(red: 0.925, green: 0.937, blue: 0.945, alpha: 1)
     public static let baseGrayLight = UIColor(red: 0.965, green: 0.965, blue: 0.965, alpha: 1)
-    public static let baseGrayMedium = UIColor(red: 0.945, green: 0.945, blue: 0.945, alpha: 1)
+    public static let baseGrayMedium = UIColor(red: 0.929, green: 0.929, blue: 0.929, alpha: 1)
     public static let baseWhite = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let fontsPrimary = UIColor(red: 0.196, green: 0.196, blue: 0.208, alpha: 1)
     public static let fontsSecondary = UIColor(red: 0.369, green: 0.369, blue: 0.388, alpha: 1)

@@ -2,12 +2,12 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 09 Nov 2021 22:52:46 GMT
+  Generated on Wed, 10 Nov 2021 06:22:28 GMT
 -->
 <resources>
   <color name="color_base_white">#ffffffff</color>
   <color name="color_base_gray_light">#fff6f6f6</color>
-  <color name="color_base_gray_medium">#fff1f1f1</color>
+  <color name="color_base_gray_medium">#ffededed</color>
   <color name="color_base_gray_blue">#ffeceff1</color>
   <color name="color_fonts_primary">#ff323235</color>
   <color name="color_fonts_secondary">#ff5e5e63</color>

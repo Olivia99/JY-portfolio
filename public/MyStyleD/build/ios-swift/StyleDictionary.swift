@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 09 Nov 2021 22:52:46 GMT
+// Generated on Wed, 10 Nov 2021 06:22:28 GMT
 
 
 import UIKit
@@ -19,7 +19,7 @@ public class StyleDictionary {
     public static let assetFontInterTtf = ""assets/fonts/Inter-Regular.ttf""
     public static let colorBaseGrayBlue = UIColor(red: 0.925, green: 0.937, blue: 0.945, alpha: 1)
     public static let colorBaseGrayLight = UIColor(red: 0.965, green: 0.965, blue: 0.965, alpha: 1)
-    public static let colorBaseGrayMedium = UIColor(red: 0.945, green: 0.945, blue: 0.945, alpha: 1)
+    public static let colorBaseGrayMedium = UIColor(red: 0.929, green: 0.929, blue: 0.929, alpha: 1)
     public static let colorBaseWhite = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorFontsPrimary = UIColor(red: 0.196, green: 0.196, blue: 0.208, alpha: 1)
     public static let colorFontsSecondary = UIColor(red: 0.369, green: 0.369, blue: 0.388, alpha: 1)

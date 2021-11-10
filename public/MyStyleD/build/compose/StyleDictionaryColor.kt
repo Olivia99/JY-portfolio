@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Tue, 09 Nov 2021 22:52:46 GMT
+// Generated on Wed, 10 Nov 2021 06:22:28 GMT
 
 
 
@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.*
 object StyleDictionaryColor {
   val colorBaseGrayBlue = Color(0xffeceff1)
   val colorBaseGrayLight = Color(0xfff6f6f6)
-  val colorBaseGrayMedium = Color(0xfff1f1f1)
+  val colorBaseGrayMedium = Color(0xffededed)
   val colorBaseWhite = Color(0xffffffff)
   val colorFontsPrimary = Color(0xff323235)
   val colorFontsSecondary = Color(0xff5e5e63)
