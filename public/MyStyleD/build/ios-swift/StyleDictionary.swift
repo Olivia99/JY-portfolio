@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 08 Nov 2021 00:54:40 GMT
+// Generated on Tue, 09 Nov 2021 22:52:46 GMT
 
 
 import UIKit
@@ -15,7 +15,7 @@ public class StyleDictionary {
     public static let assetFontIconTtf = ""assets/fonts/MaterialIcons-Regular.ttf""
     public static let assetFontIconWoff = ""assets/fonts/MaterialIcons-Regular.woff""
     public static let assetFontIconWoff2 = ""assets/fonts/MaterialIcons-Regular.woff2""
-    public static let assetFontInterName = ""'Inter', sans-serif""
+    public static let assetFontInterName = ""Inter, sans-serif""
     public static let assetFontInterTtf = ""assets/fonts/Inter-Regular.ttf""
     public static let colorBaseGrayBlue = UIColor(red: 0.925, green: 0.937, blue: 0.945, alpha: 1)
     public static let colorBaseGrayLight = UIColor(red: 0.965, green: 0.965, blue: 0.965, alpha: 1)

@@ -1,7 +1,7 @@
 {
   "color": {
     "base": {
-      "white" :{"value":"#FFFFFF"},
+      "white" :{"value":"#ffffff"},
       "gray": {
         "light": {
           "value": "#F6F6F6"
