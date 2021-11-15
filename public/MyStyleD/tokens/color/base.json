@@ -23,6 +23,15 @@
       },
       "tertiary": {
         "value": "#8C8C8C"
+      },
+      "highlight":{
+        "value":"#096dd9"
+      },
+      "purple":{
+        "value":"#8075FF"
+      },
+      "mint":{
+        "value": "#ADF1E0"
       }
     }
   }

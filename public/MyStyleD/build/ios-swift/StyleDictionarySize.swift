@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 10 Nov 2021 06:22:28 GMT
+// Generated on Sun, 14 Nov 2021 20:28:49 GMT
 
 
 import UIKit
@@ -14,6 +14,7 @@ public enum StyleDictionarySize {
     public static let fontLarge = CGFloat(24.00) /* the large size of the font */
     public static let fontMedium = CGFloat(19.20) /* the medium size of the font */
     public static let fontSmall = CGFloat(16.00) /* the small size of the font */
+    public static let fontXSmall = CGFloat(12.80)
     public static let fontXlarge = CGFloat(32.00) /* the large size of the font */
     public static let iconBase = CGFloat(32.00)
     public static let iconLarge = CGFloat(40.00)

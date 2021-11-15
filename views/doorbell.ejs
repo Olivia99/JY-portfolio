@@ -14,33 +14,277 @@
 <body>
   <%- include("header")%>
 
+
   <section class="grid projects">
-    <%- include("placeholder")%>
-    <div class="grid__container">
+    <%- include("grid")%>
 
-      <div class="sectionNum">
+    <%- include ("projectIntro", {
+      pType:"UX DESIGN",
 
-        <p> <%- include("numSection",{sectionNumber: "01", sectionName: "Overview"}) %> </p>
-      </div>
+      pName:"Nooie Doorbell",
 
-      <div class="sectionContent">
-        <p>first section</p>
+      overviewContent: [
+      "Nooie is a smart home start-up that focuses on home security and automation. When I joined Nooie as a full-time employee, they had already finished the development and production process of the new product—Nooie Cam Doorbell & Base Station.",
+       "However, the Nooie Doorbell had a return rate of 37% in February 2021. I was assigned to understand why customers were returning the product, and to provide a solution.",
+       "Over two weeks, I contributed to the redesign of the doorbell’s new user flow and app screen to help solve the problem. ",
+"This project contains two parts: redesign Nooie app UX flow and provide a better Customer Advocate system to reduce confusion and complaints."
+       ],
+
+      highlight:["", "", "Six months after my design was implemented, the return rate dropped by 19% in July 2021, down from 37% in February 2021.", ""],
+
+      timeline:"Feb 2021 --July 2021",
+
+      software:["Figma", "TestFlight"],
+
+      myRole:["Interviewing",
+"Ideation",
+"Design Thinking",
+"Systems Thinking",
+"Technology Research",
+"Wire-framing",
+"Prototyping",
+"Alpha Tester",
+"Beta Tester",
+]
+    }) %>
+
+    <div class="grid__container full">
+      <div class="fullSection">
+        <img style=" width:100%" src="assets/img/doorbell_1.jpeg" alt="nooie doorbell product image">
+        <img style=" width:100%" src="assets/img/doorbell_2.jpeg" alt="nooie doorbell product image">
       </div>
 
     </div>
-    <%- include("placeholder")%>
+
     <div class="grid__container reverse">
 
-      <div class="sectionNum">
-        <p> <%- include("numSection",{sectionNumber: "02", sectionName: "Problem"}) %> </p>
+    </div>
+    <div class="grid__container">
+      <%- include("numSection",{sideContentber: "01", sectionName: "OVERVIEW"}) %>
+      <div class="sectionContent">
+
+        <div class="sectionDiv">
+          <h3 class="subtitle">Problems</h3>
+          <p>In Feb 2021, almost two in five Nooie Doorbell & Base Station units were returned (more than two times the standard return rate for electronic products, which is 11-20%) because:</p>
+
+          <p>
+            <strong>1. Customer frustration:</strong><br>
+            One in three (33%) users couldn't connect the doorbell with the base station, leading to frustration.
+          </p>
+
+
+          <p>
+            <strong>2. Insufficient battery life:</strong><br>
+            Nearly 25% of users returned the Doorbell because the battery drained too fast.
+          </p>
+
+          <p>
+            <strong>3. Inadequate customer service:</strong><br>
+            ‍Many customers complained that the CS team was unresponsive, or took too long to reply, resulting in diminished brand loyalty.
+          </p>
+
+        </div>
+        <div class="sectionDiv">
+          <h3 class="subtitle">Challenges</h3>
+
+          <p>1. Time constraint.<br>
+            2. Difficulty making changes on physical products.
+          </p>
+
+
+          <p>Since the products had shipped to the warehouse, and Nooie sold around 200 pre-ordered units, <span class="highlights"> <strong>I had to give a solution that didn’t require physical changes</strong> </span>to the product, all within a
+            very tight timeframe.</p>
+        </div>
+        <div class="sectionDiv">
+          <h3 class="subtitle">Intent</h3>
+          <p>1. Understand why the users can't connect the Doorbell to the Base station and provide a solution.<br>
+            2. Provide a better Customer Advocate system that provides an actionable solution to help users solve their problems.
+          </p>
+
+        </div>
       </div>
+    </div>
+    <div class="grid__container reverse">
+
+      <%- include("numSectionR",{sideContentber: "02", sectionName: "Redesign UX Flow"}) %>
+
 
       <div class="sectionContent">
-        <p>second section</p>
+        <div class="sectionDiv">
+          <h3>Testing the products to understand the problem</h3>
+          <p>Based on the report, I knew I initially needed to focus on the connection failure issue, as it was the main reason customers were returning the product.</p>
+
+          <p>In order to understand why customers weren’t able to connect to the internet, I required three sample products from the company for product testing.</p>
+        </div>
+        <div class="sectionDiv">
+          <h4>Product Testing</h4>
+          <img src="assets/img/productTesting.jpeg" alt="Nooie Doorbell In The Box. Items Showing In The Picture: Doorbell, Wall Mount, Chime And Accessories Box.">
+          <p>I didn't have any prior knowledge of the Nooie doorbell, so I was testing it from a new user's perspective.</p>
+          <p>I read through the directions and followed the instructions as they were given, but failed to connect several times. At that point, I realized how frustrated the customers must have been when they returned the product.</p>
+          <p>Overall, these were issues that occurred during the pairing process:</p>
+
+          <div class="quotation">
+            <p>1. I followed each step shown on the app, but ended up getting connection failures each time without knowing where it went wrong.</p>
+          </div>
+          <div class="quotation">
+            <p>
+              2. The ‘indicator lights' meaning was unclear, thus causing difficulties for me to self-debug.
+            </p>
+          </div>
+          <div class="quotation">
+            <p>
+              3. When the error message popped up in the app, there was no clear message telling me what to do to solve the error.
+            </p>
+          </div>
+
+
+          <p>I couldn't figure out how to connect the two products, so I sought help from my colleagues across different teams.</p>
+
+
+        </div>
+
+        <div class="sectionDiv">
+          <h4>Finding the problem through conversation with PD and F/W Engineer.</h4>
+          <img src="assets/img/LEDIndicator.png" alt="LED Indicator Chart For Both Base Station And Doorbell. Created By Jieying Yang">
+          <p>Our product designer told me the key to connect the base station is to understand the product status by looking at the LED indicator.</p>
+
+          <p>Unfortunately, even if I knew what each light meant, I still failed to reconnect the base station and the doorbell. The product design team defined the LED lights, but didn't know the mechanism behind the firmware, and thus didn't know
+            what to do when the product performed unexpectedly.</p>
+
+
+          <img src="assets/img/iPairingProcess.png" alt="The Idealistic Pairing Process.">
+          <p>I mapped out the user flow base on our app. In this process, the user only had a few actions, but with the help of a firmware engineer, I realized the actual process is way more complicated than it showed.</p>
+
+
+
+        </div>
+
+        <div class="sectionDiv">
+          <h3>The Problem</h3>
+          <p>
+            <span class="highlights"> <strong> Each product has its own operation timing, and it turned out this was the leading cause of the connection failure in our product.</strong> </span>
+          </p>
+          <img src="assets/img/compairingChart.jpeg" alt="Base Station And Doorbell Operation Timing Chart">
+          <p>The doorbell will actively search for a pairable product after being booted, and if it doesn't find any, it will automatically go to sleeping mode after 30 seconds.</p>
+          <p>However, the Base Station has to connect to the Wi-Fi first before it becomes a pairable device, and usually, this process takes around 30 to 50 seconds. <span class="highlights"><strong>So after the base station connected to Wi-Fi, the
+                doorbell was already in "Sleeping Mode" and could no longer be found by base station.</strong></span> (See diagram below)</p>
+          <img src="assets/img/originalFlow.png" alt="Base Station And Doorbell Operation Timing Chart">
+
+
+        </div>
+
+        <div class="sectionDiv">
+          <h3>The Solution</h3>
+          <p>
+            After I understood how the product firmware worked, the solution naturally followed: To power the doorbell after connecting the base station to Wi-Fi,<span class="highlights"> <strong> ensuring the "searching time" overlaps.</strong>
+            </span>
+          </p>
+          <img src="assets/img/compairingFlow.jpeg" alt="Base Station And Doorbell Operation Timing Chart">
+          <img src="assets/img/gifTimeline.gif" alt="Base Station And Doorbell Operation Timing Chart">
+          <p>I did 20 tests using this proposed method, and the <span class="highlights"> <strong>pairing success rate reached 95%</strong></span> under a stable Wi-Fi connection. </p>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    </div>
+
+    <div class="grid__container">
+      <%- include("numSection",{sideContentber: "03", sectionName: "Provide Better Customer Advocate System"}) %>
+
+
+      <div class="sectionContent">
+        <div class="sectionDiv">
+          <h3>The Problem</h3>
+          <p>Customers encountered multiple potential failures during each step (see image below). Therefore, <span class="highlights"><strong>the best way to reduce the negative impact on user experience is to provide an actionable solution right
+                away.</strong></span></p>
+          <img src="assets/img/logicFlow.png" alt="Logic Flow For The Best Practice Pairing Process.">
+          <p>Fortunately, we found the key to pairing success is to make sure the base station blinks once per second, indicating it's ready to search for a pairable product (see the area highlighted in red).</p>
+          <p>As long as we can ensure that customers receive adequate guidance, we can ensure the rest of the pairing process will succeed. So, I decided to embed a self-help system to provide the proper guidance when users need it.</p>
+
+        </div>
+        <div class="sectionDiv">
+          <h3>The The Solution</h3>
+          <p>Based on the logic flow, I added a few screens displaying the solution for the specific issue that the user experiences during the pairing process. </p>
+          <img src="assets/img/flowBefore.jpeg" alt="">
+          <img src="assets/img/flowAfter.jpeg" alt="">
+        </div>
       </div>
 
     </div>
 
+    <div class="grid__container reverse">
+      <%- include("numSectionR",{sideContentber: "04", sectionName: "Impact"}) %>
+
+
+      <div class="sectionContent">
+        <div class="sectionDiv">
+          <h3>Impact</h3>
+          <p>After implementing my designs and all other deliverables, Nooie’s <spa class="highlights"> <strong>return rate decreased to 18% in May 2021 from 37% </strong></spa> in February, and <span class="highlights"><strong>complaints about
+                connection issues reduced to 10% from 33%.</strong></span></p>
+          <p>Unfortunately, we didn't implement the ‘User Behavior Tracking’ in our app, so no data indicated whether our in-app Customer Advocate system reduced the return rate or not.</p>
+          <img src="assets/img/data.png" alt="Impact data">
+          <p>After we launched our app with a newly designed UX flow, I built a ‘Help Center’ on the Nooie website (from June to July) to better advocate for customers. By the end of August 2021, the Nooie Help Center reached 7,000 views since it
+            launched on July 21. On average, the help center has <span class="highlights"><strong>served more than 230 people per day.</strong></span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid__container">
+      <%- include("numSection",{sideContentber: "05", sectionName: "Final Deliverables"}) %>
+
+
+      <div class="sectionContent">
+        <div class="sectionDiv">
+          <h3>Deliverable</h3>
+          <p>
+            1. Designed screens and created clickable prototypes. (Solo Work) <br>
+            2. Videos (Team Work)<br>
+            <span class="intent">---<a href="https://www.youtube.com/watch?v=aElhmfnCteo">Doorbell installation tutorial</a></span> <br>
+            <span class="intent">---Doorbell troubleshooting Videos: <a href="https://www.youtube.com/watch?v=h8zdS6IDfeQ&list=PLdNZtQKW60O8-q4WR-KVkUKkrBRPkRLiC">Video 1, </a> <a
+                href="https://www.youtube.com/watch?v=Wh3XpQI5yxo&list=PLdNZtQKW60O8-q4WR-KVkUKkrBRPkRLiC&index=3">Video 2, </a> <a href="https://www.youtube.com/watch?v=LFjBx78yVmY&list=PLdNZtQKW60O8-q4WR-KVkUKkrBRPkRLiC&index=3">Video3, </a> <a
+                href="https://www.youtube.com/watch?v=ymgNa-WTcKw&list=PLdNZtQKW60O8-q4WR-KVkUKkrBRPkRLiC&index=5">Video4</a></span> <br>
+            3. Created <a href="https://help.nooie.com/hc/en-us">Nooie Help Center </a>for an online self-help system. (Solo Work)
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="grid__container full">
+      <div class="fullSection">
+        <iframe style="border: 0px solid rgba(0, 0, 0, 0);"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxuSqYHqLdpRZ2kjwcfcNjB%2FUntitled%3Fkind%3D%26node-id%3D2%253A1288%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A963"
+          allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/aElhmfnCteo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img src="assets/img/nooieHelpCenter.png" alt="Screenshoot of Nooie Help Center">
+      </div>
+
+    </div>
+
+    <div class="grid__container reverse">
+      <%- include("numSectionR",{sideContentber: "06", sectionName: "Reflection"}) %>
+
+
+      <div class="sectionContent">
+        <div class="sectionDiv">
+          <h3>Reflection</h3>
+          <p>Two of the biggest challenges I faced during this project were: The limited time available to address all of the issues, and the limited ability to make physical changes to the product.</p>
+
+          <p>On an interpersonal level, I also realized that product designers and engineers have different ways of thinking and problem-solving. This proved to be an important consideration throughout my communication with the team. <span
+              class="highlights"><strong>By improving my ability to communicate and understand my team members’ thought processes, I could maximize my time and ability to solve the problem.
+              </strong></span></p>
+          <p>For example, the firmware engineer was naturally more aware that the operation times differed for each product. The idea that this would cause a connection failure, however, never crossed his mind. Consequently, he didn’t recognize it
+            was an important discrepancy to note. In our conversation, he said that it didn’t matter which device the user connected to first, as long as they waited for the light signal. However, the issue was that users didn’t wait long enough for
+            the system to respond. <span class="highlights"><strong>As long as the team failed to consider both the physical product’s performance time and the users’ typical behavior, the product was designed to fail. </strong></span></p>
+          <p>Another lesson I learned during my work on this project is that the key to finding a solution doesn't always come directly from the users’ experience. Sometimes it comes from <span class="highlights"><strong>understanding your product,
+                and communicating and collaborating with your teammates. </strong></span></span></p>
+          <h3>If I had more time...</h3>
+          <p>If I had more time, I would spend it identifying which steps could be automated (actions taken by the app) and which steps could be semi-automated (automated, but needing permission from the user) to simplify the user flow. I would also
+            run user tests with real customers in order to see whether they could follow the structure easily, thus increasing their pairing success rate. </p>
+        </div>
+      </div>
   </section>
 
 </body>

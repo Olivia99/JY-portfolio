@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 10 Nov 2021 06:22:28 GMT
+  Generated on Sun, 14 Nov 2021 20:28:49 GMT
 -->
 <resources>
   <color name="color_base_white">#ffffffff</color>
@@ -12,5 +12,8 @@
   <color name="color_fonts_primary">#ff323235</color>
   <color name="color_fonts_secondary">#ff5e5e63</color>
   <color name="color_fonts_tertiary">#ff8c8c8c</color>
+  <color name="color_fonts_highlight">#ff096dd9</color>
+  <color name="color_fonts_purple">#ff8075ff</color>
+  <color name="color_fonts_mint">#ffadf1e0</color>
   
 </resources>

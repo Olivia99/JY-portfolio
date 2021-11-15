@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="MyStyleD/build/css/_variables.css">
 
   <link rel="fonts" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
-
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
 
@@ -32,8 +32,8 @@
   <div class="container">
     <div class="projects">
 
-    <%- include("project-card" , {projectTitle: "Nooie Doorbell" , projectType: "UX Design 2021", projectDesciption: "Redesigned UX Flow and Consumer Advocate method, which resulted in a 19% drop in returns."})-%>
-    <%- include("project-card", {projectTitle: "Scobee" , projectType: "App Design 2020", projectDesciption: "Redesigned UX Flow and Consumer Advocate method, which resulted in a 19% drop in returns." }) -%>
+    <%- include("project-card" , {projectTitle: "Nooie Doorbell" , projectType: "UX Design 2021", projectDesciption: "Redesigned UX Flow and Consumer Advocate method, which resulted in a 19% drop in returns.", lottie: "https://assets4.lottiefiles.com/packages/lf20_24mxypcs.json", page:"doorbell"})-%>
+    <%- include("project-card", {projectTitle: "Scobee" , projectType: "App Design 2020", projectDesciption: "Created to encourage individuals to take action toward reversing climate change", lottie: "https://assets9.lottiefiles.com/packages/lf20_yxupc4x2.json", page:"doorbell" }) -%>
 
 </body>
 

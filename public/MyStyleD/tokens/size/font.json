@@ -1,6 +1,9 @@
 {
   "size": {
     "font": {
+      "xSmall":{
+        "value": "0.8"
+      },
       "small" : {
         "value": "1",
         "comment": "the small size of the font"

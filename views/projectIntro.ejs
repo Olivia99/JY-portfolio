@@ -1,0 +1,51 @@
+<div class="grid__container reverse">
+
+  <div class="sectionContent">
+
+    <p class="projectType"><%=pType%> </p>
+    <h1><%=pName%></h1>
+    <% for(var i =0; i<overviewContent.length; i++){ %>
+
+
+    <p><%=overviewContent[i]%><span class="highlights"><strong><%=highlight[i]%></strong></span></p>
+
+    <%  } %>
+
+  </div>
+
+  <div class="sideContent reverse">
+    <div class="sideContentWrapper reverse">
+      <div class="projectNote">
+        <div class="item" >
+          <p><strong>Timeline</strong>
+          </p>
+          <p>  <%=timeline%></p>
+        </div>
+
+        <div class="item">
+          <p><strong>Software</strong></p>
+          <% for(var i =0; i<software.length; i++){ %>
+          <p><%=software[i]%></p>
+
+          <%  } %>
+
+        </div>
+
+        <div class="item">
+          <p><strong>My Role</strong></p>
+          <% for(var i =0; i<myRole.length; i++){ %>
+          <p><%=myRole[i]%></p>
+
+          <%  } %>
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+</div>

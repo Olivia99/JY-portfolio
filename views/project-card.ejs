@@ -1,17 +1,21 @@
 <div class="project-card">
+
   <div class="card-content">
     <div class="info">
       <h3> <%=projectTitle%> </h3>
       <h5><b><%=projectType%></b></h5>
 
       <p><%=projectDesciption%></p>
-      <a href="doorbell">
-        <button type="submit" name="readMore">Read More <img src="assets/img/arrow-right.svg" alt="arrow"></button>
+      <a href="<%=page%>">
+        <button type="submit" name="readMore">Read More </button>
       </a>
     </div>
 
     <div class="card-image">
-      <img src="assets/img/doorbell.png" alt="image of a hand pressing a doorbell">
+
+      <lottie-player src="<%=lottie%>" background="transparent" speed="1" loop autoplay></lottie-player>
+      <!-- <img src="assets/img/doorbell.png" alt="image of a hand pressing a doorbell"> -->
     </div>
+
   </div>
 </div>

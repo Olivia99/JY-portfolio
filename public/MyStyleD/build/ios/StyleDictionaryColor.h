@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 10 Nov 2021 06:22:28 GMT
+// Generated on Sun, 14 Nov 2021 20:28:49 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -16,7 +16,10 @@ ColorBaseGrayMedium,
 ColorBaseGrayBlue,
 ColorFontsPrimary,
 ColorFontsSecondary,
-ColorFontsTertiary
+ColorFontsTertiary,
+ColorFontsHighlight,
+ColorFontsPurple,
+ColorFontsMint
 };
 
 @interface StyleDictionaryColor : NSObject

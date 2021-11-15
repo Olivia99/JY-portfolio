@@ -3,12 +3,13 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 10 Nov 2021 06:22:28 GMT
+// Generated on Sun, 14 Nov 2021 20:28:49 GMT
 
 
 #import <Foundation/Foundation.h>
 
 
+extern float const SizeFontXSmall;
 extern float const SizeFontSmall;
 extern float const SizeFontMedium;
 extern float const SizeFontLarge;

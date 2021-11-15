@@ -4,12 +4,13 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 10 Nov 2021 06:22:28 GMT
+// Generated on Sun, 14 Nov 2021 20:28:49 GMT
 
 
 #import "StyleDictionarySize.h"
 
 
+float const SizeFontXSmall = 12.80f;
 float const SizeFontSmall = 16.00f;
 float const SizeFontMedium = 19.20f;
 float const SizeFontLarge = 24.00f;

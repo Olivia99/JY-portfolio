@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Wed, 10 Nov 2021 06:22:28 GMT
+// Generated on Sun, 14 Nov 2021 20:28:49 GMT
 
 
 
@@ -20,6 +20,7 @@ object StyleDictionarySize {
   val sizeFontMedium = 19.20.sp
   /** the small size of the font */
   val sizeFontSmall = 16.00.sp
+  val sizeFontXSmall = 12.80.sp
   /** the large size of the font */
   val sizeFontXlarge = 32.00.sp
   val sizeIconBase = 32.00.sp

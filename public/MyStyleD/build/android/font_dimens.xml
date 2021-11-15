@@ -2,9 +2,10 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 10 Nov 2021 06:22:28 GMT
+  Generated on Sun, 14 Nov 2021 20:28:49 GMT
 -->
 <resources>
+  <dimen name="size_font_x_small">12.80sp</dimen>
   <dimen name="size_font_small">16.00sp</dimen><!-- the small size of the font -->
   <dimen name="size_font_medium">19.20sp</dimen><!-- the medium size of the font -->
   <dimen name="size_font_large">24.00sp</dimen><!-- the large size of the font -->
